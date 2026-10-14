@@ -1,6 +1,6 @@
 {
-	"name": "Lampa",
-	"version": "latest",
-	"parameter": "content:{PREFIX}{domain}/msx/start.json",
-	"action": "link:{PREFIX}{domain}"
+  "name": "Lampa KinoPub",
+  "version": "1.0",
+  "parameter": "content:https://mfkrdruid.github.io/tv/msx/start.json",
+  "action": "link:https://mfkrdruid.github.io/tv/"
 }
