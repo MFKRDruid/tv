@@ -165,3 +165,14 @@
     </script>
 </body>
 </html>
+<script>
+(function loadKinoPub(){
+    if (window.Lampa) {
+        var script = document.createElement('script');
+        script.src = 'https://mainsync-afk.github.io/lampa_kinopub/kp.js';
+        document.body.appendChild(script);
+    } else {
+        setTimeout(loadKinoPub, 500);
+    }
+})();
+</script>
